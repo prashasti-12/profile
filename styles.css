@@ -1,0 +1,185 @@
+/* Global Styles */
+body {
+    font-family:  sans-serif;
+    background-color: #fdf6e3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url(jweeleery.webp);
+    /* text-align: center; */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#f7f3e9;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+     text-align: center;
+    
+    
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #B22222;
+    padding-left: 40%;
+}
+
+.logout-btn {
+    background-color: #B22222;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.logout-btn:hover {
+    background-color: #8b1a1a;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+   
+}
+
+.profile-pic-container {
+    flex: 1;
+    text-align: center;
+    padding-left: 30%;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #B22222;
+    text-align: center;
+}
+.profile-pic:hover {
+    transform: scale(1.5,1.5);
+}
+
+.user-info {
+    flex: 2; 
+    padding-left:30px;
+    
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #B22222;
+    margin-bottom: 10px;
+}
+
+/* Account Information & Address Sections */
+.account-info, .address-section, .current-orders, .wishlist {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Order History Section */
+.order-history {
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.product-img:hover{
+    transform: scale(2,2);
+}
+
+/* Wishlist Section */
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.wishlist-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.remove-btn {
+    background-color: #B22222;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.remove-btn:hover {
+    background-color: #8b1a1a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #B22222;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+.wishlist-img:hover {
+    transform: scale(2,2);
+}
